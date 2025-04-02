@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "Catchy Download Manager"
+  },
+  "general": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "settings": "Settings",
+    "remove": "Remove",
+    "pause": "Pause",
+    "resume": "Resume",
+    "open": "Open",
+    "folder": "Folder",
+    "browse": "Browse",
+    "startDownload": "Start Download",
+    "downloadLater": "Download Later",
+    "cancelAction": "Cancel Action",
+    "resumeExisting": "Resume Existing",
+    "cancelOldStartNew": "Cancel Old & Start New"
+  },
+  "downloadForm": {
+    "title": "Add Download",
+    "url": "URL:",
+    "addDownload": "Add Download",
+    "adding": "Adding...",
+    "invalidUrl": "Please enter a valid URL",
+    "enterUrl": "Please enter a URL",
+    "showAdvanced": "► Show advanced options",
+    "hideAdvanced": "▼ Hide advanced options",
+    "downloadFolder": "Download folder:",
+    "defaultFolder": "Default downloads folder",
+    "useDefaultFolder": "Leave empty to use default Downloads folder",
+    "connections": "Connections:",
+    "connectionsTooltip": "Number of simultaneous connections to use for downloading this file. More connections can speed up downloads from servers that limit individual connection speed.",
+    "dynamicConnections": "Dynamic connections",
+    "dynamicConnectionsTooltip": "Automatically adjusts connection count during download based on performance. Increases connections if download is fast, decreases if connections are slow."
+  },
+  "downloadList": {
+    "title": "Downloads",
+    "empty": {
+      "title": "No downloads yet",
+      "message": "Add a URL above to start downloading files"
+    }
+  },
+  "downloadItem": {
+    "unknown": "Unknown",
+    "eta": "ETA:"
+  },
+  "downloadStatus": {
+    "downloading": "Downloading",
+    "paused": "Paused",
+    "queued": "Queued",
+    "completed": "Completed",
+    "error": "Error"
+  },
+  "confirmDialog": {
+    "title": "Confirm Download Details",
+    "duplicateTitle": "Duplicate Download Detected",
+    "fileExistsWarning": "Warning: A file with this name already exists in the destination folder. Starting the download will overwrite it or create a numbered copy.",
+    "partialFileInfo": "Info: A partial download (.part file) exists. Starting the download will attempt to resume it.",
+    "duplicateMessage": "A download for this URL already exists:",
+    "duplicateQuestion": "What would you like to do?",
+    "existingFile": "File:",
+    "existingStatus": "Status:",
+    "url": "URL:",
+    "fileSize": "File Size:",
+    "category": "Category:",
+    "addCategory": "+",
+    "saveDirectory": "Save Directory:",
+    "rememberPath": "Remember path for this category",
+    "filename": "Filename:",
+    "description": "Description:",
+    "addCategoryPrompt": "Enter new category name:"
+  },
+  "settings": {
+    "title": "Settings",
+    "defaultPath": "Default Download Path:",
+    "maxConcurrent": "Max Concurrent Downloads:",
+    "pathValidating": "Validating path...",
+    "pathValid": "Path is valid.",
+    "pathInvalid": "Invalid path",
+    "pathValidationFailed": "Validation failed",
+    "ipcError": "IPC error",
+    "browsePath": "Browse",
+    "language": "Language:",
+    "languageChanged": "Language changed successfully",
+    "saveSuccess": "Settings saved successfully!",
+    "saveFailed": "Failed to save settings",
+    "languages": {
+      "en": "English",
+      "ar": "العربية",
+      "fr": "Français"
+    },
+    "extensionTitle": "Browser Extension Installation",
+    "extensionInstructions": "The Catchy browser extension needs to be installed manually:",
+    "extensionStep1": "Open your browser's extensions page (e.g., chrome://extensions).",
+    "extensionStep2": "Enable 'Developer mode'.",
+    "extensionStep3": "Click 'Load unpacked'.",
+    "extensionStep4": "Select the folder revealed by the button below.",
+    "showExtensionFilesButton": "Show Extension Files"
+  }
+} 

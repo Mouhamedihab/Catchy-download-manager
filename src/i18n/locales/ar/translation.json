@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "مدير التحميل كاتشي"
+  },
+  "general": {
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "saving": "جاري الحفظ...",
+    "settings": "الإعدادات",
+    "remove": "إزالة",
+    "pause": "إيقاف مؤقت",
+    "resume": "استئناف",
+    "open": "فتح",
+    "folder": "المجلد",
+    "browse": "استعراض",
+    "startDownload": "بدء التحميل",
+    "downloadLater": "تحميل لاحقاً",
+    "cancelAction": "إلغاء الإجراء",
+    "resumeExisting": "استئناف الموجود",
+    "cancelOldStartNew": "إلغاء القديم وبدء الجديد"
+  },
+  "downloadForm": {
+    "title": "إضافة تحميل",
+    "url": "الرابط:",
+    "addDownload": "إضافة تحميل",
+    "adding": "جاري الإضافة...",
+    "invalidUrl": "الرجاء إدخال رابط صحيح",
+    "enterUrl": "الرجاء إدخال رابط",
+    "showAdvanced": "◄ عرض الخيارات المتقدمة",
+    "hideAdvanced": "▼ إخفاء الخيارات المتقدمة",
+    "downloadFolder": "مجلد التحميل:",
+    "defaultFolder": "مجلد التنزيلات الافتراضي",
+    "useDefaultFolder": "اتركه فارغاً لاستخدام مجلد التنزيلات الافتراضي",
+    "connections": "الاتصالات:",
+    "connectionsTooltip": "عدد الاتصالات المتزامنة المستخدمة لتنزيل هذا الملف. يمكن أن تسرع المزيد من الاتصالات عمليات التنزيل من الخوادم التي تحد من سرعة الاتصال الفردي.",
+    "dynamicConnections": "اتصالات ديناميكية",
+    "dynamicConnectionsTooltip": "يضبط تلقائيًا عدد الاتصالات أثناء التنزيل بناءً على الأداء. يزيد الاتصالات إذا كان التنزيل سريعًا، ويقللها إذا كانت الاتصالات بطيئة."
+  },
+  "downloadList": {
+    "title": "التنزيلات",
+    "empty": {
+      "title": "لا يوجد تنزيلات حتى الآن",
+      "message": "أضف رابطًا أعلاه لبدء تنزيل الملفات"
+    }
+  },
+  "downloadItem": {
+    "unknown": "غير معروف",
+    "eta": "الوقت المتبقي:"
+  },
+  "downloadStatus": {
+    "downloading": "جاري التحميل",
+    "paused": "متوقف مؤقتاً",
+    "queued": "في قائمة الانتظار",
+    "completed": "مكتمل",
+    "error": "خطأ"
+  },
+  "confirmDialog": {
+    "title": "تأكيد تفاصيل التحميل",
+    "duplicateTitle": "تم اكتشاف تنزيل مكرر",
+    "fileExistsWarning": "تحذير: يوجد بالفعل ملف بهذا الاسم في مجلد الوجهة. سيؤدي بدء التنزيل إلى استبداله أو إنشاء نسخة مرقمة.",
+    "partialFileInfo": "معلومات: يوجد تنزيل جزئي (ملف .part). سيحاول بدء التنزيل استئنافه.",
+    "duplicateMessage": "يوجد بالفعل تنزيل لهذا الرابط:",
+    "duplicateQuestion": "ماذا تريد أن تفعل؟",
+    "existingFile": "الملف:",
+    "existingStatus": "الحالة:",
+    "url": "الرابط:",
+    "fileSize": "حجم الملف:",
+    "category": "الفئة:",
+    "addCategory": "+",
+    "saveDirectory": "مجلد الحفظ:",
+    "rememberPath": "تذكر المسار لهذه الفئة",
+    "filename": "اسم الملف:",
+    "description": "الوصف:",
+    "addCategoryPrompt": "أدخل اسم الفئة الجديدة:"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "defaultPath": "مسار التنزيل الافتراضي:",
+    "maxConcurrent": "الحد الأقصى للتنزيلات المتزامنة:",
+    "pathValidating": "جاري التحقق من المسار...",
+    "pathValid": "المسار صحيح.",
+    "pathInvalid": "مسار غير صالح",
+    "pathValidationFailed": "فشل التحقق من المسار",
+    "ipcError": "خطأ في الاتصال",
+    "browsePath": "استعراض",
+    "language": "اللغة:",
+    "languageChanged": "تم تغيير اللغة بنجاح",
+    "saveSuccess": "تم حفظ الإعدادات بنجاح!",
+    "saveFailed": "فشل حفظ الإعدادات",
+    "languages": {
+      "en": "English",
+      "ar": "العربية",
+      "fr": "Français"
+    },
+    "extensionTitle": "تثبيت إضافة المتصفح",
+    "extensionInstructions": "يجب تثبيت إضافة متصفح كاتشي يدويًا:",
+    "extensionStep1": "افتح صفحة الإضافات في متصفحك (مثل chrome://extensions).",
+    "extensionStep2": "قم بتمكين \"وضع المطور\".",
+    "extensionStep3": "انقر فوق \"تحميل إضافة غير مضغوطة\".",
+    "extensionStep4": "حدد المجلد الذي يظهره الزر أدناه.",
+    "showExtensionFilesButton": "إظهار ملفات الإضافة"
+  }
+} 

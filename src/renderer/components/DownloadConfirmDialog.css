@@ -1,0 +1,135 @@
+/* The dialog selectors are now handled in modern.css */
+
+/* Category container */
+.category-container {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.category-container select {
+  flex: 1;
+  background-color: var(--surface);
+  color: var(--text-primary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: 1rem;
+  box-shadow: var(--shadow-inner);
+}
+
+.add-category-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  transition: all var(--transition-fast);
+}
+
+.add-category-btn:hover {
+  color: var(--primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.add-category-btn svg {
+  font-size: 1.2rem;
+}
+
+/* Save path container */
+.save-path-container {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.save-path-container input {
+  flex: 1;
+}
+
+/* Remember path checkbox styling */
+.remember-path {
+  display: flex;
+  align-items: center;
+  margin-top: var(--spacing-xs);
+  color: var(--text-tertiary);
+  font-size: 0.9rem;
+}
+
+.remember-path input[type="checkbox"] {
+  margin-right: var(--spacing-sm);
+}
+
+/* Readonly inputs */
+.readonly-input {
+  background-color: var(--surface-light) !important;
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+/* Existing download info styling */
+.existing-download-info {
+  background: var(--surface);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  border-left: 4px solid var(--primary);
+}
+
+.existing-download-info strong {
+  color: var(--text-secondary);
+  margin-right: var(--spacing-sm);
+}
+
+/* Tertiary button (different from primary/secondary in modern.css) */
+.btn-tertiary {
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-tertiary:hover, .btn-tertiary:focus {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+}
+
+/* Animation for the dialog */
+.download-confirm-dialog {
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* RTL Specific Styles */
+html[dir="rtl"] .existing-download-info {
+  border-left: none;
+  border-right: 4px solid var(--primary);
+}
+
+/* Mobile Styles */
+@media (max-width: 500px) {
+  .dialog-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .dialog-buttons button {
+    margin-bottom: var(--spacing-sm);
+  }
+} 

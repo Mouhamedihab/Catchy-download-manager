@@ -1,0 +1,103 @@
+{
+  "app": {
+    "title": "Gestionnaire de Téléchargement Catchy"
+  },
+  "general": {
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "saving": "Enregistrement...",
+    "settings": "Paramètres",
+    "remove": "Supprimer",
+    "pause": "Pause",
+    "resume": "Reprendre",
+    "open": "Ouvrir",
+    "folder": "Dossier",
+    "browse": "Parcourir",
+    "startDownload": "Démarrer le téléchargement",
+    "downloadLater": "Télécharger plus tard",
+    "cancelAction": "Annuler l'action",
+    "resumeExisting": "Reprendre l'existant",
+    "cancelOldStartNew": "Annuler l'ancien et démarrer le nouveau"
+  },
+  "downloadForm": {
+    "title": "Ajouter un téléchargement",
+    "url": "URL :",
+    "addDownload": "Ajouter un téléchargement",
+    "adding": "Ajout en cours...",
+    "invalidUrl": "Veuillez entrer une URL valide",
+    "enterUrl": "Veuillez entrer une URL",
+    "showAdvanced": "► Afficher les options avancées",
+    "hideAdvanced": "▼ Masquer les options avancées",
+    "downloadFolder": "Dossier de téléchargement :",
+    "defaultFolder": "Dossier de téléchargements par défaut",
+    "useDefaultFolder": "Laissez vide pour utiliser le dossier de téléchargements par défaut",
+    "connections": "Connexions :",
+    "connectionsTooltip": "Nombre de connexions simultanées à utiliser pour télécharger ce fichier. Plus de connexions peuvent accélérer les téléchargements depuis les serveurs qui limitent la vitesse de connexion individuelle.",
+    "dynamicConnections": "Connexions dynamiques",
+    "dynamicConnectionsTooltip": "Ajuste automatiquement le nombre de connexions pendant le téléchargement en fonction des performances. Augmente les connexions si le téléchargement est rapide, les diminue si les connexions sont lentes."
+  },
+  "downloadList": {
+    "title": "Téléchargements",
+    "empty": {
+      "title": "Aucun téléchargement pour le moment",
+      "message": "Ajoutez une URL ci-dessus pour commencer à télécharger des fichiers"
+    }
+  },
+  "downloadItem": {
+    "unknown": "Inconnu",
+    "eta": "Temps restant :"
+  },
+  "downloadStatus": {
+    "downloading": "Téléchargement",
+    "paused": "En pause",
+    "queued": "En attente",
+    "completed": "Terminé",
+    "error": "Erreur"
+  },
+  "confirmDialog": {
+    "title": "Confirmer les détails du téléchargement",
+    "duplicateTitle": "Téléchargement en double détecté",
+    "fileExistsWarning": "Attention : Un fichier portant ce nom existe déjà dans le dossier de destination. Le démarrage du téléchargement l'écrasera ou créera une copie numérotée.",
+    "partialFileInfo": "Info : Un téléchargement partiel (.part) existe. Le démarrage du téléchargement tentera de le reprendre.",
+    "duplicateMessage": "Un téléchargement pour cette URL existe déjà :",
+    "duplicateQuestion": "Que souhaitez-vous faire ?",
+    "existingFile": "Fichier :",
+    "existingStatus": "Statut :",
+    "url": "URL :",
+    "fileSize": "Taille du fichier :",
+    "category": "Catégorie :",
+    "addCategory": "+",
+    "saveDirectory": "Répertoire de sauvegarde :",
+    "rememberPath": "Se souvenir du chemin pour cette catégorie",
+    "filename": "Nom du fichier :",
+    "description": "Description :",
+    "addCategoryPrompt": "Entrez le nom de la nouvelle catégorie :"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "defaultPath": "Chemin de téléchargement par défaut :",
+    "maxConcurrent": "Téléchargements simultanés max :",
+    "pathValidating": "Validation du chemin...",
+    "pathValid": "Le chemin est valide.",
+    "pathInvalid": "Chemin invalide",
+    "pathValidationFailed": "Échec de la validation",
+    "ipcError": "Erreur IPC",
+    "browsePath": "Parcourir",
+    "language": "Langue :",
+    "languageChanged": "Langue changée avec succès",
+    "saveSuccess": "Paramètres enregistrés avec succès !",
+    "saveFailed": "Échec de l'enregistrement des paramètres",
+    "languages": {
+      "en": "English",
+      "ar": "العربية",
+      "fr": "Français"
+    },
+    "extensionTitle": "Installation de l'extension navigateur",
+    "extensionInstructions": "L'extension navigateur Catchy doit être installée manuellement :",
+    "extensionStep1": "Ouvrez la page des extensions de votre navigateur (ex: chrome://extensions).",
+    "extensionStep2": "Activez le 'Mode développeur'.",
+    "extensionStep3": "Cliquez sur 'Charger l'extension non empaquetée'.",
+    "extensionStep4": "Sélectionnez le dossier révélé par le bouton ci-dessous.",
+    "showExtensionFilesButton": "Afficher les fichiers de l'extension"
+  }
+} 

@@ -1,0 +1,9 @@
+{
+  "name": "com.catchy.download",
+  "description": "Catchy Download Manager Native Host",
+  "path": "catchy-host.js",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://*"
+  ]
+} 

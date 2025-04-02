@@ -1,0 +1,80 @@
+{
+  "name": "catchy",
+  "version": "1.0.0",
+  "description": "Catchy Download Manager - A modern, elegant download manager with acceleration",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "webpack --mode development && node build.js && electron . --no-devtools",
+    "dev-with-console": "webpack --mode development && node build.js && electron .",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production && node build.js",
+    "pack": "npm run build && electron-builder --dir",
+    "dist": "npm run build && electron-builder"
+  },
+  "keywords": [
+    "download-manager",
+    "electron",
+    "idm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "electron-store": "^10.0.1",
+    "got": "^14.4.7",
+    "i18next": "^24.2.3",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "node-fetch": "^3.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^15.4.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.18.0",
+    "react-toastify": "^11.0.5",
+    "stream": "^0.0.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/uuid": "^9.0.7",
+    "css-loader": "^6.8.1",
+    "electron": "^27.0.4",
+    "electron-builder": "^24.6.4",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "build": {
+    "appId": "com.catchy.app",
+    "productName": "Catchy Download Manager",
+    "files": [
+      "dist/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "browser-extension",
+        "to": "extensions/browser-extension",
+        "filter": ["**/*"]
+      }
+    ],
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "resources/icon.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "allowToChangeInstallationDirectory": false
+    }
+  }
+}
